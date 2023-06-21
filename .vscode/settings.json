@@ -1,23 +1,23 @@
 {
     "workbench.colorCustomizations": {
-        "activityBar.activeBackground": "#90589d",
-        "activityBar.background": "#90589d",
+        "activityBar.activeBackground": "#823c93",
+        "activityBar.background": "#823c93",
         "activityBar.foreground": "#e7e7e7",
         "activityBar.inactiveForeground": "#e7e7e799",
-        "activityBarBadge.background": "#afa370",
+        "activityBarBadge.background": "#9e8c41",
         "activityBarBadge.foreground": "#15202b",
         "commandCenter.border": "#e7e7e799",
-        "sash.hoverBorder": "#90589d",
-        "statusBar.background": "#72467c",
+        "sash.hoverBorder": "#823c93",
+        "statusBar.background": "#622d6f",
         "statusBar.foreground": "#e7e7e7",
-        "statusBarItem.hoverBackground": "#90589d",
-        "statusBarItem.remoteBackground": "#72467c",
+        "statusBarItem.hoverBackground": "#823c93",
+        "statusBarItem.remoteBackground": "#622d6f",
         "statusBarItem.remoteForeground": "#e7e7e7",
-        "titleBar.activeBackground": "#72467c",
+        "titleBar.activeBackground": "#622d6f",
         "titleBar.activeForeground": "#e7e7e7",
-        "titleBar.inactiveBackground": "#72467c99",
+        "titleBar.inactiveBackground": "#622d6f99",
         "titleBar.inactiveForeground": "#e7e7e799"
     },
-    "peacock.color": "#72467c",
+    "peacock.color": "#622d6f",
     "liveServer.settings.multiRootWorkspaceName": "WEB_FERRETIERIA"
 }
