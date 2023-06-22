@@ -1,0 +1,57 @@
+body{
+    background-color:#e3e4e5;
+    font-family: Arial,sans-serif;
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
+
+.d-barra{
+    background-color:#1b5583;
+    padding: 10px;
+}
+
+.izquierda{
+    text-align:left;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.centro{
+    text-align:center;
+    margin: 0;
+    padding: 0;
+    display:flex;
+}
+
+.centro li{
+    display:inline-flex;
+}
+
+.centro li a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding:3px;
+}
+
+.derecha{
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    display:flex;
+}
+
+h1{
+    text-align: center;
+}
+
+footer{
+    background-color: #1b5583;
+}
+
+
+
+
