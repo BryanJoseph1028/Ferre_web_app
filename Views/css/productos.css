@@ -3,7 +3,7 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	background-color: #e9e5dd;
+	background-color: #1b5583;
 	padding: 10px 20px;
 	position: fixed;
 	top: 0;
@@ -25,15 +25,20 @@ main {
 /* Estilos generales */
 body {
     font-family: Arial, sans-serif;
-    background-color: #b3925a;
+    background-color:   #e3e4e5;
     color: #000000;
     margin: 0;
     padding: 0;
 }
 
-h1, h2 {
-    text-align: center;
+h2 {
+    text-align: left;
     color: #000000;
+}
+
+h1 {
+    text-align: left;
+    color: #ffffff;
 }
 
 table {
@@ -75,19 +80,6 @@ tfoot td {
 
 /* Estilos futuristas */
 
-h2 {
-    font-size: 24px;
-    color: #000000;
-}
-
-table {
-    border: none;
-    color: #000000;
-}
-
-th, td {
-    border-bottom: 1px solid #000000;
-}
 
 tfoot td {
     color: #fff;
@@ -99,7 +91,7 @@ tfoot td {
 }
 
 .pay-now-btn, .continue-shopping-btn {
-    background-color: #5c3c04;
+    background-color: #324959;
     color: #ffffff;
     font-size: 18px;
     padding: 12px 30px;
@@ -113,8 +105,8 @@ tfoot td {
 
 /* Estilo para el pie de página */
 footer {
-    background-color: #e9e5dd;
-    color: #999;
+    background-color: #324959;
+    color: #ffffff;
     text-align: center;
     padding: 10px;
     position: fixed;
