@@ -2,22 +2,182 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Recuperacion</title>
+        <link rel="icon" href="#">
+        <title>Recuperacion de Usuario</title>
+        <link rel="stylesheet" href="css/barras.css">
+        <link rel="stylesheet" href="css/recuperarUsuario.css">
     </head>
     <body>
         <form>
+            <header class="d-barra">
+
+                <nav class="barra" id="barra">
+
+                    <div class="barraIzquierda">
+                        <ul class="izquierda">
+                            <li>
+                                <div class="icono-barra">
+                                    <a href="#">
+                                        <img src="../Img/icon/bombilla.png" width="60">
+                                    </a>              
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="barraCentro"> 
+                        <div class="referenciaFormularios">
+                            <ul class="centro">
+
+                                <li>
+                                    <a href="#">
+                                        Carpinteria
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        Pinturas
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        Tornilleria
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        Mecanica
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        Electricidad
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        Plomeria
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        Herramientas
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        Otros
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="barraIzquierda">
+                        <ul class="derecha">
+                            <li>
+                                <div class="buscador">
+                                    <input type="text" name="busqueda" id="busqueda" placeholder="Busqueda" size="25">
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="login">
+                                    <a href="login.html">
+                                        <img src="../Img/icon/login.png" width="50">
+                                    </a>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="compras">
+                                    <a href="carrito.html">
+                                        <img src="../Img/icon/carritoCompras.png" width="50">
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </nav>
+            </header>
+
+            <section class="contenido">
             
-            <h1>Recuperacion de Usuario</h1>
+                <h1>Recuperacion de Usuario</h1>
 
-            <div class="correo">
-                <label for="email">Correo Electronico</label>
-                <input type="email" name="recuperacionEmail" id="recuperacionEmail">
-            </div>
+                <div class="correo">
+                    <input type="email" name="recuperacionEmail" id="recuperacionEmail" placeholder="Ingrese su correo electronico" size="50">
+                </div>
 
-            <div class="btnRecuperarUsuario">
-                <img src="../Img/icon/busqueda.png" width="25">             
-            </div>
+                <br>
+
+                <div class="btnRecuperarUsuario">
+                    <button type="button">
+                        <img src="../Img/icon/enviar.png" width="30"> Enviar
+                    </button>          
+                </div>
+
+            </section>
+
+            <footer class="encabezado">
+                <ul class="redes">
+                    <li>
+                        <div class="iconoInstagram">
+                            <a href="#">
+                                <img src="../Img/icon/instagram.png" width="50">
+                            </a>
+                        </div>
+                    </li>
+    
+                    <li>
+                        <div class="iconoWhatsapp">
+                            <a href="#">
+                                <img src="../Img/icon/whatsapp.png" width="50">
+                            </a>
+                        </div>
+                    </li>
+    
+                    <li>
+                        <div class="iconoFacebook">
+                            <a href="#">
+                                <img src="../Img/icon/facebook.png" width="50">
+                            </a>
+                        </div>
+                    </li>
+    
+                    <li>
+                        <div class="iconoUbicacion">
+                            <a href="#">
+                                <img src="../Img/icon/ubicacion.png" width="50">
+                            </a>
+                        </div>
+                    </li>
+    
+                    <li>
+                        <div class="iconoHorario">
+                            <a href="#">
+                                <img src="../Img/icon/horario.png" width="50">
+                            </a>
+                        </div>
+                    </li>
+    
+                    <li>
+                        <div class="iconoTelefono">
+                            <a href="#">
+                                <img src="../Img/icon/telefono.png" width="50">
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </footer>
         </form>
     </body>
 </html>

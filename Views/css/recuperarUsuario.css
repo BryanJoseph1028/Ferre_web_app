@@ -1,0 +1,29 @@
+.contenido{
+    text-align: center;
+    height: 403px;
+    width: 400px;
+    display: block;
+    justify-content: center;
+    margin-left: 450px;
+    padding: 0px;
+    margin-top: 0px;
+    border: 0px;
+}
+
+.contenido h1{
+    text-align: center;
+    margin-top:100px;
+    color:rgb(100, 34, 207);  
+}
+
+.contenido input{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contenido button{
+    margin-top: 55px;
+    width: 140px;
+    height: 60px;
+    background-color:#88b6db;
+}
