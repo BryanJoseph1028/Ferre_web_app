@@ -27,6 +27,7 @@ main {
 /* Estilos del formulario de registro */
 .registration-form {
     padding: 20px;
+    border: #solid;
     background-color: #1b5583;
     margin: 50px auto;
     max-width: 600px;
@@ -50,10 +51,10 @@ main {
 .registration-form input[type="number"],
 .registration-form input[type="email"],
 .registration-form input[type="password"] {
-    background-color: transparent;
-    border: none;
-    border-bottom: 2px solid #000000;
-    color: #000000;
+    background-color: white
+    border: black;  
+    border-bottom: 2px solid #ffffff;
+    color: #ffffff;
     font-size: 24px;
     margin-bottom: 20px;
     padding: 5px;
@@ -89,6 +90,7 @@ main {
     text-decoration: none;
     text-transform: uppercase;
 }
+
   /* Estilo para el pie de página */
 footer {
 	text-align: center;
