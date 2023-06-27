@@ -27,7 +27,7 @@ main {
 /* Estilos del formulario de registro */
 .registration-form {
     padding: 20px;
-    border: #solid;
+    border: solid;
     background-color: #1b5583;
     margin: 50px auto;
     max-width: 600px;
@@ -52,7 +52,8 @@ main {
 .registration-form input[type="email"],
 .registration-form input[type="password"] {
     background-color: white
-    border: black;  
+    font-family: Arial;
+    border: white;  
     border-bottom: 2px solid #ffffff;
     color: #ffffff;
     font-size: 24px;
@@ -81,6 +82,7 @@ main {
 
 .btn {
     border: none;
+    font-family: Arial, sans-serif;
     color: #e3e4e5;;
     display: inline-block;
     font-size: 24px;
