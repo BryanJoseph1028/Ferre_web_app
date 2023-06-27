@@ -31,6 +31,7 @@ body {
     padding: 0;
 }
 
+
 h2 {
     text-align: left;
     color: #000000;
@@ -60,6 +61,10 @@ tfoot td {
 .buttons {
     text-align: center;
     margin-top: 20px;
+}
+
+.buttons a{
+    text-decoration: none;
 }
 
 .pay-now-btn, .continue-shopping-btn {
