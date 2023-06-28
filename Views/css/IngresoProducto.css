@@ -11,6 +11,12 @@ header {
 	right: 0;
 }
 
+body {
+	font-family: Arial, sans-serif;
+    background-color: #e3e4e5;
+    color:  #e3e4e5;
+}
+
 header h1{
     color: #ffffff;
 	font-size: 36px;
@@ -28,6 +34,7 @@ main {
 /* Estilos del formulario de registro */
 .registration-form {
     padding: 20px;
+    border-radius: 5px;
     background-color: #1b5583;
     margin: 50px auto;
     max-width: 600px;
@@ -41,7 +48,7 @@ main {
 }
 
 .registration-form label {
-    color: #000000;
+    color: #ffffff;
     display: block;
     font-size: 24px;
     margin-bottom: 10px;
@@ -52,10 +59,17 @@ main {
 .registration-form input[type="number"],
 .registration-form input[type="email"],
 .registration-form input[type="password"] {
+<<<<<<< HEAD
     background-color: white transparent;
     border: none;
+=======
+    
+    font-family: Arial;
+    border-radius: 3px;
+    border: transparent;  
+>>>>>>> ad39f5476e8bf45a7b99ba68b4f3d8c2d3c5c647
     border-bottom: 2px solid #000000;
-    color: #000000;
+    color: #ffffff;
     font-size: 24px;
     margin-bottom: 20px;
     padding: 5px;
@@ -64,7 +78,7 @@ main {
 
 .registration-form .btn {
     background-color: #000000;
-    border: none;
+    border: 2px solid #ffffff;
     color: #ffffff;
     display: inline-block;
     font-size: 24px;
@@ -82,6 +96,7 @@ main {
 
 .btn {
     border: none;
+    font-family: Arial, sans-serif;
     color: #e3e4e5;;
     display: inline-block;
     font-size: 24px;
@@ -91,6 +106,7 @@ main {
     text-decoration: none;
     text-transform: uppercase;
 }
+
   /* Estilo para el pie de página */
 footer {
 	text-align: center;
