@@ -4,13 +4,115 @@
     <head>
         <meta charset="UTF-8">
         <link rel="icon" href="../Img/icon/grupo.png">
+        <link rel="stylesheet" href="css/barras.css">
+        <link rel="stylesheet" href="css/clientes.css">
         <title>Clientes</title>
     </head>
 
     <body>
-        <form action="clientes.php" method="get" align="center">
+        <form>
 
-            <section>
+            <header class="d-barra">
+
+                <nav class="barra" id="barra">
+
+                    <div class="barraIzquierda">
+                        <ul class="izquierda">
+                            <li>
+                                <div class="icono-barra">
+                                    <a href="#">
+                                        <img src="../Img/icon/bombilla.png" width="60">
+                                    </a>              
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="barraCentro"> 
+                        <div class="referenciaFormularios">
+                            <ul class="centro">
+
+                                <li>
+                                    <a href="#">
+                                        Carpinteria
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        Pinturas
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        Tornilleria
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        Mecanica
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        Electricidad
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        Plomeria
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        Herramientas
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        Otros
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="barraIzquierda">
+                        <ul class="derecha">
+                            <li>
+                                <div class="buscador">
+                                    <input type="text" name="busqueda" id="busqueda" placeholder="Busqueda" size="25">
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="login">
+                                    <a href="login.html">
+                                        <img src="../Img/icon/login.png" width="50">
+                                    </a>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="compras">
+                                    <a href="carrito.html">
+                                        <img src="../Img/icon/carritoCompras.png" width="50">
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </nav>
+            </header>
+
+            <section class="formulario">
                 <div class="titulo">
                     <h1>FORMULARIO CLIENTES</h1>
                 </div>
@@ -84,17 +186,96 @@
                 <br>
 
                 <div class="addres">
-                    <input type="text" name="direccion" id="direccion" placeholder="Direccion">
+                    <input type="text" name="direccion" id="direccion" placeholder="Direccion Exacta">
                 </div>
 
                 <br>
 
-                <div class="btGuardar">
-                    <button type="submit">
-                        <img src="/Img/icon/guardar.png" width="40">
-                    </button>
-                </div>
+                <ul class="btn">
+                    <li>
+                        <div class="btnAgregar">
+                            <button type="button">
+                                    <img src="../Img/icon/agregarUsuario.png" width="45">
+                                    Agregar
+                            </button>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="btnBuscar">
+                            <button type="button">
+                                    <img src="../Img/icon/buscarUsuario.png" width="45">
+                                    Buscar
+                            </button>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="btnModificar">
+                            <button type="button">
+                                <img src="../Img/icon/usuarioEditar.png" width="45">
+                                Modificar
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+
+
+                <br>
+
             </section>
+
+            <footer class="encabezado">
+                <ul class="redes">
+                    <li>
+                        <div class="iconoInstagram">
+                            <a href="#">
+                                <img src="../Img/icon/instagram.png" width="50">
+                            </a>
+                        </div>
+                    </li>
+    
+                    <li>
+                        <div class="iconoWhatsapp">
+                            <a href="#">
+                                <img src="../Img/icon/whatsapp.png" width="50">
+                            </a>
+                        </div>
+                    </li>
+    
+                    <li>
+                        <div class="iconoFacebook">
+                            <a href="#">
+                                <img src="../Img/icon/facebook.png" width="50">
+                            </a>
+                        </div>
+                    </li>
+    
+                    <li>
+                        <div class="iconoUbicacion">
+                            <a href="#">
+                                <img src="../Img/icon/ubicacion.png" width="50">
+                            </a>
+                        </div>
+                    </li>
+    
+                    <li>
+                        <div class="iconoHorario">
+                            <a href="#">
+                                <img src="../Img/icon/horario.png" width="50">
+                            </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="iconoTelefono">
+                            <a href="#">
+                                <img src="../Img/icon/telefono.png" width="50">
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </footer>
         </form>    
     </body>
 </html>

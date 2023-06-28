@@ -1,0 +1,33 @@
+.formulario{
+    display: block;
+    text-align: center;
+    height: auto;
+    width: auto;
+}
+
+.formulario input{
+    text-align: center;
+    width: 250px;
+}
+
+.formulario select{
+    text-align: center;
+    width: 250px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn li{
+    margin-right: 32px;
+}
+
+.btn button{
+    width: 80px;
+}
+
+.btn button:hover{
+    background-color:rgb(18, 250, 96);
+}

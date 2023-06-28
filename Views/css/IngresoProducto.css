@@ -24,6 +24,7 @@ main {
 	padding-top: 80px;
 }
 
+
 /* Estilos del formulario de registro */
 .registration-form {
     padding: 20px;
@@ -46,11 +47,12 @@ main {
     margin-bottom: 10px;
 }
 
+
 .registration-form input[type="text"],
 .registration-form input[type="number"],
 .registration-form input[type="email"],
 .registration-form input[type="password"] {
-    background-color: transparent;
+    background-color: white transparent;
     border: none;
     border-bottom: 2px solid #000000;
     color: #000000;
@@ -74,7 +76,7 @@ main {
 }
 
 .registration-form .btn:hover {
-    background-color: #1b5583;
+    background-color:greenyellow;
     color: #e3e4e5;;
 }
 
