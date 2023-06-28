@@ -69,7 +69,7 @@ tfoot td {
 
 .pay-now-btn, .continue-shopping-btn {
     padding: 10px 20px;
-    background-color: #5c3c04;
+    background-color: #1b5583   ;
     color: #ffffff;
     border: none;
     border-radius: 5px;
@@ -78,7 +78,7 @@ tfoot td {
 }
 
 .pay-now-btn:hover, .continue-shopping-btn:hover {
-    background-color: #6dd900;
+    background-color: #1b5583;
     color: #fff;
     cursor: pointer;
 }
@@ -86,17 +86,16 @@ tfoot td {
 /* Estilos futuristas */
 
 
-tfoot td {
-    color: #fff;
-    font-size: 18px;
-}
+
 
 .buttons {
     margin-top: 40px;
+    color:#1b5583
 }
 
 .pay-now-btn, .continue-shopping-btn {
-    background-color: #324959;
+    border:#ffffff solid;
+    background-color:#1b5583;
     color: #ffffff;
     font-size: 18px;
     padding: 12px 30px;
@@ -104,7 +103,7 @@ tfoot td {
 }
 
 .pay-now-btn:hover, .continue-shopping-btn:hover {
-    background-color: #6dd900;
+    background-color: #324959;
     color: #fff;
 }
 
