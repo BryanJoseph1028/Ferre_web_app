@@ -97,6 +97,10 @@ ul{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.formatoLogin a:hover{
+    color: black;
+}
+
 .formatoLogin button{
     background-color:#1b5583;
     color: #e3e4e5;
@@ -104,6 +108,11 @@ ul{
     height: 40px;
     opacity: 95%;
 }
+
+.formatoLogin button:hover{
+    background-color:black;
+}
+
 
 .encabezado{
     background-color: #1b5583;

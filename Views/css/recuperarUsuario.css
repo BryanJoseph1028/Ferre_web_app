@@ -89,6 +89,11 @@
     background-color:#88b6db;
 }
 
+.contenido button:hover{
+    background-color: #4d82bc;
+}
+
+
 .btnRecuperarUsuario a{
     text-decoration: none;
 }
