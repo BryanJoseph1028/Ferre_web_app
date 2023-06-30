@@ -75,7 +75,7 @@ ul{
     padding: 0px;
     margin-left:380px;
     width:600px;
-    height:483px;
+    height:399px;
     text-align: center;
     display: block;
 }
@@ -113,23 +113,14 @@ ul{
     background-color:black;
 }
 
-
-.encabezado{
-    background-color: #1b5583;
-    display: flex;
-    margin: 0px;
-    padding: 0px;
-    
+.pieDePagina {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 1.2em;
+	color: #ffffff;
+	background-color: #004c6d;
 }
 
-.redes{
-    display: flex;
-    padding: 0px;
-    margin: 8px;
-   
-}
-
-.redes li img{
-    display:flex ;
-    margin-left: 150px;
+.pieDePagina img{
+    margin-left: 45px;
 }
