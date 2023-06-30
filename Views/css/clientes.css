@@ -1,6 +1,10 @@
 .formulario{
-    display: block;
+    background-color: #1b5583;
+    color: whitesmoke;
+    display: inline-block;
     text-align: center;
+    margin-left: 500px;
+    margin-top: 10px;
     height: auto;
     width: auto;
 }
