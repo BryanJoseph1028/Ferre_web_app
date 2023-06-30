@@ -1,5 +1,5 @@
 /* Estilos del header*/
-header {
+header{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -9,6 +9,70 @@ header {
 	top: 0;
 	left: 0;
 	right: 0;
+}
+
+.ul{
+    list-style: none;
+}
+
+.barra{
+    display:inline-flex;
+    margin: -18px;
+    padding: 0px;
+    border: 0px;
+}
+
+.d-barra{
+    background-color:#1b5583;
+    margin: -1px;
+    padding: -1px;
+    border: -1px;
+    display:flex;
+}
+
+.izquierda{
+    display: inline-block;
+}
+
+.izquierda li{
+    
+    justify-content: left;
+    display:inline-flex;
+    margin-top: 10px;
+}
+
+.centro{
+    display:inline-block;
+    padding:0px;
+    margin-left:40px;
+}
+
+.centro li{
+    justify-content: center;
+    list-style-position: inside;
+    display:inline-flex;
+    margin-top: 10px;
+}
+
+.centro a{
+    text-align: center;
+    text-decoration: none;
+    color: #e3e4e5;
+    margin:20px;
+    
+}
+
+.derecha{
+    justify-content: right;
+    display: inline-flex;
+    margin-left: 190px;
+}
+
+.derecha li img{
+    text-align: right;
+    margin-top: 12px;
+    justify-content: right;
+    
 }
 
 body {
@@ -26,7 +90,7 @@ header h1{
 
 
 /* Espacio entre el header y body*/
-main {
+.main {
 	padding-top: 80px;
 }
 
@@ -59,15 +123,8 @@ main {
 .registration-form input[type="number"],
 .registration-form input[type="email"],
 .registration-form input[type="password"] {
-<<<<<<< HEAD
     background-color: white transparent;
     border: none;
-=======
-    
-    font-family: Arial;
-    border-radius: 3px;
-    border: transparent;  
->>>>>>> ad39f5476e8bf45a7b99ba68b4f3d8c2d3c5c647
     border-bottom: 2px solid #000000;
     color: #ffffff;
     font-size: 24px;
