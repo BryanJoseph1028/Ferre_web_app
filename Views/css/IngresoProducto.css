@@ -16,17 +16,18 @@ header{
 }
 
 .barra{
-    display:inline-flex;
-    margin: -18px;
-    padding: 0px;
-    border: 0px;
+    background-color:#1b5583;
+    margin:  -50px;
+    padding: -50px;
+    border:  -50px;
+    display:flex;
 }
 
 .d-barra{
     background-color:#1b5583;
-    margin: -1px;
-    padding: -1px;
-    border: -1px;
+    margin:  3px;
+    padding: 3px;
+    border:  3px;
     display:flex;
 }
 
@@ -39,12 +40,13 @@ header{
     justify-content: left;
     display:inline-flex;
     margin-top: 10px;
+
 }
 
 .centro{
     display:inline-block;
-    padding:0px;
-    margin-left:40px;
+    display: flex;
+    padding: 2px;
 }
 
 .centro li{
@@ -65,7 +67,6 @@ header{
 .derecha{
     justify-content: right;
     display: inline-flex;
-    margin-left: 190px;
 }
 
 .derecha li img{
@@ -83,24 +84,51 @@ body {
 
 header h1{
     color: #ffffff;
-	font-size: 36px;
+	font-size: 30px;
 	margin: 0;
 	padding: 0;
 }
 
+ul{
+    list-style: none;
+}
+
+#busqueda{
+    margin-top: 20px;
+    text-align: left;
+}
+
+
+.encabezado{
+    background-color: #1b5583;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.encabezado ul{
+    display:inline-flex;
+    text-align: center;
+}
+
+.encabezado li{
+    margin-right: 50px;
+    margin-top: 40px;
+    display: flex;
+}
 
 /* Espacio entre el header y body*/
 .main {
-	padding-top: 80px;
+	padding-top: 40px;
 }
 
 
 /* Estilos del formulario de registro */
 .registration-form {
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 4px;
     background-color: #1b5583;
-    margin: 50px auto;
+    margin: 90px auto;
     max-width: 600px;
 }
 
@@ -114,7 +142,7 @@ header h1{
 .registration-form label {
     color: #ffffff;
     display: block;
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
@@ -127,7 +155,7 @@ header h1{
     border: none;
     border-bottom: 2px solid #000000;
     color: #ffffff;
-    font-size: 24px;
+    font-size: 25px;
     margin-bottom: 20px;
     padding: 5px;
     text-align: center;
@@ -147,7 +175,7 @@ header h1{
 }
 
 .registration-form .btn:hover {
-    background-color:greenyellow;
+    background-color: #1b5583;
     color: black;
 }
 
@@ -163,6 +191,8 @@ header h1{
     text-decoration: none;
     text-transform: uppercase;
 }
+
+
 
   /* Estilo para el pie de página */
 footer {
