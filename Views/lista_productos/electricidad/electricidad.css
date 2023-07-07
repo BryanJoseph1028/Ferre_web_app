@@ -96,3 +96,14 @@ header{
 .informacion button:hover{
     background-color: #2D4263;
 }
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #324959;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
