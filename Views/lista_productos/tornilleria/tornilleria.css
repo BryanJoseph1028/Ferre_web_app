@@ -6,8 +6,9 @@
 }
 body {
     font-family: 'Space Grotesk', sans-serif;
-    background-color: #141C29;
-    padding-top: 80px;
+    background-color: #ffffff;
+    padding-top: 100px;
+    margin-bottom: 100px;
 }
 h1{
     font-family: 'Montserrat', sans-serif;
