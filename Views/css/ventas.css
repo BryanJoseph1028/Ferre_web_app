@@ -10,6 +10,80 @@ header {
 	left: 0;
 	right: 0;
 }
+ul{
+    list-style: none;
+}
+
+.barra{
+    display: flex;
+    margin: -22px;
+    padding: 0px;
+    border: 0px;
+}
+
+.d-barra{
+    background-color:#1b5583;
+    margin: -1px;
+    padding: -1px;
+    border: -1px;
+    display:flex;
+}
+
+.izquierda{
+    display: inline-block;
+}
+
+.izquierda li{
+    
+    justify-content: left;
+    display:inline-flex;
+    margin-top: 10px;
+}
+
+.centro{
+    display: flex;
+    padding: 2px;
+}
+
+.centro li{
+    justify-content: center;
+    list-style-position: inside;
+    display:inline-flex;
+    margin-top: 10px;
+}
+
+.centro a{
+    text-align: center;
+    text-decoration: none;
+    color: #e3e4e5;
+    margin:15px;
+    
+}
+
+.derecha{
+    justify-content: right;
+    display: inline-flex;
+}
+
+.derecha li{
+    margin:12px;
+    
+}
+
+
+#busqueda{
+    margin-top: 15px;
+    text-align: left;
+}
+
+
+.encabezado{
+    background-color: #1b5583;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    
+}
 
 header h1 {
 	font-size: 36px;

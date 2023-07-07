@@ -74,19 +74,29 @@ ul{
 .encabezado{
     background-color: #1b5583;
     display: flex;
-    margin: 0px;
-    padding: 0px;
-    
+    justify-content: center;
+    text-align: center;
 }
 
-.redes{
+.encabezado ul{
+    display:inline-flex;
+    text-align: center;
+}
+
+.encabezado li{
+    margin-right: 50px;
+    margin-top: 40px;
     display: flex;
-    padding: 0px;
-    margin: 8px;
-   
 }
 
-.redes li img{
-    display:flex ;
-    margin-left: 150px;
+.pieDePagina {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 1.2em;
+	color: #ffffff;
+	background-color: #004c6d;
+}
+
+.pieDePagina img{
+    margin-left: 45px;
 }

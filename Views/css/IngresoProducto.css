@@ -1,0 +1,204 @@
+/* Estilos del header*/
+header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #1b5583;
+	padding: 10px 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.ul{
+    list-style: none;
+}
+
+.barra{
+    background-color:#1b5583;
+    margin:  -50px;
+    padding: -50px;
+    border:  -50px;
+    display:flex;
+}
+
+.d-barra{
+    background-color:#1b5583;
+    margin:  3px;
+    padding: 3px;
+    border:  3px;
+    display:flex;
+}
+
+.izquierda{
+    display: inline-block;
+}
+
+.izquierda li{
+    
+    justify-content: left;
+    display:inline-flex;
+    margin-top: 10px;
+
+}
+
+.centro{
+    display:inline-block;
+    display: flex;
+    padding: 2px;
+}
+
+.centro li{
+    justify-content: center;
+    list-style-position: inside;
+    display:inline-flex;
+    margin-top: 10px;
+}
+
+.centro a{
+    text-align: center;
+    text-decoration: none;
+    color: #e3e4e5;
+    margin:20px;
+    
+}
+
+.derecha{
+    justify-content: right;
+    display: inline-flex;
+}
+
+.derecha li img{
+    text-align: right;
+    margin-top: 12px;
+    justify-content: right;
+    
+}
+
+body {
+	font-family: Arial, sans-serif;
+    background-color: #e3e4e5;
+    color:  #e3e4e5;
+}
+
+header h1{
+    color: #ffffff;
+	font-size: 30px;
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+#busqueda{
+    margin-top: 20px;
+    text-align: left;
+}
+
+
+.encabezado{
+    background-color: #1b5583;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.encabezado ul{
+    display:inline-flex;
+    text-align: center;
+}
+
+.encabezado li{
+    margin-right: 50px;
+    margin-top: 40px;
+    display: flex;
+}
+
+/* Espacio entre el header y body*/
+.main {
+	padding-top: 40px;
+}
+
+
+/* Estilos del formulario de registro */
+.registration-form {
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #1b5583;
+    margin: 90px auto;
+    max-width: 600px;
+}
+
+.registration-form h2 {
+    color: #ffffff;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.registration-form label {
+    color: #ffffff;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+.registration-form input[type="text"],
+.registration-form input[type="number"],
+.registration-form input[type="email"],
+.registration-form input[type="password"] {
+    background-color: white transparent;
+    border: none;
+    border-bottom: 2px solid #000000;
+    color: #ffffff;
+    font-size: 25px;
+    margin-bottom: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+.registration-form .btn {
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 24px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.registration-form .btn:hover {
+    background-color: #1b5583;
+    color: black;
+}
+
+.btn {
+    border: none;
+    font-family: Arial, sans-serif;
+    color: #e3e4e5;;
+    display: inline-block;
+    font-size: 24px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+  /* Estilo para el pie de página */
+footer {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 1.2em;
+    background-color: #324959;
+    color: #e3e4e5;
+}

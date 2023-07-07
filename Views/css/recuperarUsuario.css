@@ -1,6 +1,67 @@
+.barra{
+    display:inline-flex;
+    margin: -18px;
+    padding: 0px;
+    border: 0px;
+}
+
+.d-barra{
+    background-color:#1b5583;
+    margin: -1px;
+    padding: -1px;
+    border: -1px;
+    display:flex;
+}
+
+.izquierda{
+    display: inline-block;
+}
+
+.izquierda li{
+    
+    justify-content: left;
+    display:inline-flex;
+    margin-top: 10px;
+}
+
+.centro{
+    display:inline-block;
+    padding:0px;
+    margin-left:40px;
+}
+
+.centro li{
+    justify-content: center;
+    list-style-position: inside;
+    display:inline-flex;
+    margin-top: 10px;
+}
+
+.centro a{
+    text-align: center;
+    text-decoration: none;
+    color: #e3e4e5;
+    margin:20px;
+    
+}
+
+.derecha{
+    justify-content: right;
+    display: inline-flex;
+    margin-left: 190px;
+}
+
+.derecha li img{
+    text-align: right;
+    margin-top: 5px;
+    justify-content: right;
+    
+}
+
+
 .contenido{
     text-align: center;
-    height: 403px;
+    height: 315px;
     width: 400px;
     display: block;
     justify-content: center;
@@ -26,4 +87,13 @@
     width: 140px;
     height: 60px;
     background-color:#88b6db;
+}
+
+.contenido button:hover{
+    background-color: #4d82bc;
+}
+
+
+.btnRecuperarUsuario a{
+    text-decoration: none;
 }

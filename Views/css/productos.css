@@ -11,6 +11,93 @@ header {
 	right: 0;
 }
 
+ul{
+    list-style: none;
+}
+
+.barra{
+    display: flex;
+    margin: -22px;
+    padding: 0px;
+    border: 0px;
+}
+
+.d-barra{
+    background-color:#1b5583;
+    margin: -1px;
+    padding: -1px;
+    border: -1px;
+    display:flex;
+}
+
+.izquierda{
+    display: inline-block;
+}
+
+.izquierda li{
+    
+    justify-content: left;
+    display:inline-flex;
+    margin-top: 10px;
+}
+
+.centro{
+    display: flex;
+    padding: 2px;
+}
+
+.centro li{
+    justify-content: center;
+    list-style-position: inside;
+    display:inline-flex;
+    margin-top: 10px;
+}
+
+.centro a{
+    text-align: center;
+    text-decoration: none;
+    color: #e3e4e5;
+    margin:15px;
+    
+}
+
+.derecha{
+    justify-content: right;
+    display: inline-flex;
+}
+
+.derecha li{
+    margin:12px;
+    
+}
+
+
+#busqueda{
+    margin-top: 15px;
+    text-align: left;
+}
+
+
+.encabezado{
+    background-color: #1b5583;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.redes{
+    display: flex;
+    padding: 0px;
+    margin: 8px;
+   
+}
+
+.redes li img{
+    display:flex ;
+    margin-left: 150px;
+}
+
 header h1 {
 	font-size: 36px;
 	margin: 0;
@@ -30,6 +117,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 
 h2 {
     text-align: left;
@@ -62,9 +150,13 @@ tfoot td {
     margin-top: 20px;
 }
 
+.buttons a{
+    text-decoration: none;
+}
+
 .pay-now-btn, .continue-shopping-btn {
     padding: 10px 20px;
-    background-color: #5c3c04;
+    background-color: #1b5583   ;
     color: #ffffff;
     border: none;
     border-radius: 5px;
@@ -73,7 +165,7 @@ tfoot td {
 }
 
 .pay-now-btn:hover, .continue-shopping-btn:hover {
-    background-color: #6dd900;
+    background-color: #1b5583;
     color: #fff;
     cursor: pointer;
 }
@@ -81,17 +173,16 @@ tfoot td {
 /* Estilos futuristas */
 
 
-tfoot td {
-    color: #fff;
-    font-size: 18px;
-}
+
 
 .buttons {
     margin-top: 40px;
+    color:#1b5583
 }
 
 .pay-now-btn, .continue-shopping-btn {
-    background-color: #324959;
+    border:#ffffff solid;
+    background-color:#1b5583;
     color: #ffffff;
     font-size: 18px;
     padding: 12px 30px;
@@ -99,7 +190,7 @@ tfoot td {
 }
 
 .pay-now-btn:hover, .continue-shopping-btn:hover {
-    background-color: #6dd900;
+    background-color: #324959;
     color: #fff;
 }
 

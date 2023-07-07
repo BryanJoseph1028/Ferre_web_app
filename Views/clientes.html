@@ -4,104 +4,250 @@
     <head>
         <meta charset="UTF-8">
         <link rel="icon" href="../Img/icon/grupo.png">
+        <link rel="stylesheet" href="css/barras.css">
+        <link rel="stylesheet" href="css/clientes.css">
         <title>Clientes</title>
     </head>
 
     <body>
-        <form action="clientes.php" method="get" align="center">
+        <form>
 
-            <div>
-                <h1>FORMULARIO CLIENTES</h1>
-            </div>
+            <header class="d-barra">
 
-            <br>
+                <nav class="barra" id="barra">
 
-            <div class="id">
-                <label for="text">Nit</label>
-                <input type="text" name="nit" id="nit">
-            </div>
+                    <div class="barraIzquierda">
+                        <ul class="izquierda">
+                            <li>
+                                <div class="icono-barra">
+                                    <a href="#">
+                                        <img src="../Img/icon/bombilla.png" width="60">
+                                    </a>              
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
 
-            <br>
+                    <div class="barraCentro"> 
+                        <div class="referenciaFormularios">
+                            <ul class="centro">
 
-            <div class="name">
-                <label for="text">Nombres</label>
-                <input type="text" name="nombres" id="nombres">
-            </div>
+                                <li>
+                                    <a href="#">
+                                        Carpinteria
+                                    </a>
+                                </li>
 
-            <br>
+                                <li>
+                                    <a href="#">
+                                        Pinturas
+                                    </a>
+                                </li>
 
-            <div class="lastName">
-                <label for="text">Apellidos</label>
-                <input type="text" name="apellido" id="apellido">
-            </div>
+                                <li>
+                                    <a href="#">
+                                        Tornilleria
+                                    </a>
+                                </li>
 
-            <br>
+                                <li>
+                                    <a href="#">
+                                        Mecanica
+                                    </a>
+                                </li>
 
-            <div class="numberPhone">
-                <label for="text">Telefono</label>
-                <input type="number" name="telefono" id="telefono">
-            </div>
+                                <li>
+                                    <a href="#">
+                                        Electricidad
+                                    </a>
+                                </li>
 
-            <br>
+                                <li>
+                                    <a href="#">
+                                        Plomeria
+                                    </a>
+                                </li>
 
-            <div class="email">
-                <label for="text">Correo Electronico</label>
-                <input type="email" name="correo" id="correo">
-            </div>
+                                <li>
+                                    <a href="#">
+                                        Herramientas
+                                    </a>
+                                </li>
 
-            <br>
+                                <li>
+                                    <a href="#">
+                                        Otros
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
 
-            <div class="destion">
-                <label for="number">Departamento</label>
-                <select class="departamento" id="departamento">
-                    <option value="0"></option>
-                    <option value="1">Alta Verapaz</option>
-                    <option value="2">Baja Verapaz</option>
-                    <option value="3">Chimaltenango</option>
-                    <option value="4">Chiquimula</option>
-                    <option value="5">El Progreso</option>
-                    <option value="6">Escuintla</option>
-                    <option value="7">Guatemala</option>
-                    <option value="8">Huehuetenango</option>
-                    <option value="9">Izabal</option>
-                    <option value="10">Jalapa</option>
-                    <option value="11">Jutiapa</option>
-                    <option value="12">Petén</option>
-                    <option value="13">Quetzaltenango</option>
-                    <option value="14">Quiché</option>
-                    <option value="15">Retalhuleu</option>
-                    <option value="16">Sacatepéquez</option>
-                    <option value="17">San Marcos</option>
-                    <option value="18">Santa Rosa</option>
-                    <option value="19">Sololá</option>
-                    <option value="20">Suchitepéquez</option>
-                    <option value="21">Totonicapán</option>
-                    <option value="22">Zacapa</option>
-                </select>
-            </div>
+                    <div class="barraIzquierda">
+                        <ul class="derecha">
+                            <li>
+                                <div class="buscador">
+                                    <input type="text" name="busqueda" id="busqueda" placeholder="Busqueda" size="25">
+                                </div>
+                            </li>
 
-            <br>
+                            <li>
+                                <div class="login">
+                                    <a href="login.html">
+                                        <img src="../Img/icon/login.png" width="50">
+                                    </a>
+                                </div>
+                            </li>
 
-            <div class="city">
-                <label for="text">Cuidad</label>
-                <input type="text" name="cuidad" id="cuidad">
-            </div>
+                            <li>
+                                <div class="compras">
+                                    <a href="carrito.html">
+                                        <img src="../Img/icon/carritoCompras.png" width="50">
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
 
-            <br>
+                </nav>
+            </header>
 
-            <div class="addres">
-                <label for="text">Direccion Exacta</label>
-                <input type="text" name="direccion" id="direccion">
-            </div>
+            <section class="formulario">
+                <div class="titulo">
+                    <h1>FORMULARIO CLIENTES</h1>
+                </div>
 
-            <br>
+                
 
-            <div class="btGuardar">
-                <button type="submit">
-                    <img src="/Img/icon/guardar.png" width="40">
-                </button>
-            </div>
+                <div class="id">
+                    <input type="text" name="nit" id="nit" placeholder="Nit">
+                </div>
 
+                
+
+                <div class="name">
+                    <input type="text" name="nombres" id="nombres" placeholder="Nombres">
+                </div>
+
+            
+
+                <div class="lastName">
+                    <input type="text" name="apellido" id="apellido" placeholder="Apellidos">
+                </div>
+
+            
+
+                <div class="numberPhone">
+                    <input type="number" name="telefono" id="telefono" placeholder="Telefono">
+                </div>
+
+                
+
+                <div class="email">
+                    <input type="email" name="correo" id="correo" placeholder="Correo Electronico">
+                </div>
+
+                
+
+                <div class="departamentoDeDestino">
+                    <select class="departamento" id="departamento">
+                            <option value="0">Departamento</option>
+                            <option value="1">Alta Verapaz</option>
+                            <option value="2">Baja Verapaz</option>
+                            <option value="3">Chimaltenango</option>
+                            <option value="4">Chiquimula</option>
+                            <option value="5">El Progreso</option>
+                            <option value="6">Escuintla</option>
+                            <option value="7">Guatemala</option>
+                            <option value="8">Huehuetenango</option>
+                            <option value="9">Izabal</option>
+                            <option value="10">Jalapa</option>
+                            <option value="11">Jutiapa</option>
+                            <option value="12">Petén</option>
+                            <option value="13">Quetzaltenango</option>
+                            <option value="14">Quiché</option>
+                            <option value="15">Retalhuleu</option>
+                            <option value="16">Sacatepéquez</option>
+                            <option value="17">San Marcos</option>
+                            <option value="18">Santa Rosa</option>
+                            <option value="19">Sololá</option>
+                            <option value="20">Suchitepéquez</option>
+                            <option value="21">Totonicapán</option>
+                            <option value="22">Zacapa</option>
+                    </select>
+                </div>
+
+                
+
+                <div class="city">
+                    <input type="text" name="cuidad" id="cuidad" placeholder="Cuidad o Aldea">
+                </div>
+
+            
+
+                <div class="addres">
+                    <input type="text" name="direccion" id="direccion" placeholder="Direccion Exacta">
+                </div>
+
+                <ul class="btn">
+                    <li>
+                        <div class="btnAgregar">
+                            <button type="button">
+                                    <img src="../Img/icon/agregarUsuario.png" width="45">
+                                    Agregar
+                            </button>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="btnBuscar">
+                            <button type="button">
+                                    <img src="../Img/icon/buscarUsuario.png" width="45">
+                                    Buscar
+                            </button>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="btnModificar">
+                            <button type="button">
+                                <img src="../Img/icon/usuarioEditar.png" width="45">
+                                Modificar
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+
+            </section>
+
+            <footer class="pieDePagina">
+                <p>&copy; 2023 Ferreteria la Esquina. Reservados todos los derechos.</p>
+    
+                <a href="#">
+                    <img src="../Img/icon/instagram.png" width="50">
+                </a>
+    
+                <a href="#">
+                    <img src="../Img/icon/whatsapp.png" width="50">
+                </a>
+    
+                <a href="#">
+                    <img src="../Img/icon/facebook.png" width="50">
+                </a>
+    
+                <a href="#">
+                    <img src="../Img/icon/ubicacion.png" width="50">
+                </a>
+    
+                <a href="#">
+                    <img src="../Img/icon/horario.png" width="50">
+                </a>
+    
+                <a href="#">
+                    <img src="../Img/icon/telefono.png" width="50">
+                </a>
+            </footer>
+            
         </form>    
     </body>
 </html>

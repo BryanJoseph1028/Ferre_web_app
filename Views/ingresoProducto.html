@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ingreso de productos - Ferreteria La Esquina</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../Views/css/IngresoProducto.css">
+    </head>
+    <body>
+    
+        <main>
+            <section id="registration">
+                <div class="registration-form">
+                    <h2>Ingreso de Productos</h2>
+                    <form method="post" action="#">
+                        <header class="d-barra">
+
+                            <nav class="barra" id="barra">
+            
+                                <div class="barraIzquierda">
+                                    <ul class="izquierda">
+                                        <li>
+                                            <div class="icono-barra">
+                                                <a href="#">
+                                                    <img src="../Img/icon/bombilla.png" width="60">
+                                                </a>              
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+            
+                                <div class="barraCentro"> 
+                                    <div class="referenciaFormularios">
+                                        <ul class="centro">
+            
+                                            <li>
+                                                <a href="#">
+                                                    Carpinteria
+                                                </a>
+                                            </li>
+            
+                                            <li>
+                                                <a href="#">
+                                                    Pinturas
+                                                </a>
+                                            </li>
+            
+                                            <li>
+                                                <a href="#">
+                                                    Tornilleria
+                                                </a>
+                                            </li>
+            
+                                            <li>
+                                                <a href="#">
+                                                    Mecanica
+                                                </a>
+                                            </li>
+            
+                                            <li>
+                                                <a href="#">
+                                                    Electricidad
+                                                </a>
+                                            </li>
+            
+                                            <li>
+                                                <a href="#">
+                                                    Plomeria
+                                                </a>
+                                            </li>
+            
+                                            <li>
+                                                <a href="#">
+                                                    Herramientas
+                                                </a>
+                                            </li>
+            
+                                            <li>
+                                                <a href="#">
+                                                    Otros
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+            
+                                <div class="barraIzquierda">
+                                    <ul class="derecha">
+                                        <li>
+                                            <div class="buscador">
+                                                <input type="text" name="busqueda" id="busqueda" placeholder="Busqueda" size="10px">
+                                            </div>
+                                        </li>
+            
+                                        <li>
+                                            <div class="login">
+                                                <a href="Views/login.html">
+                                                    <img src="../Img/icon/login.png" width="50">
+                                                </a>
+                                            </div>
+                                        </li>
+            
+                                        <li>
+                                            <div class="compras">
+                                                <a href="Views/carrito.html">
+                                                    <img src="Img/icon/carritoCompras.png" width="50">
+                                                </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+            
+                            </nav>
+                        </header>
+                        
+                        <div class="form-control">
+                            <label for="name">ID</label>
+                            <input type="number" id="id_producto" name="id_producto" required>
+                        </div>
+                        <div class="form-control">
+                            <label for="name">Codigo</label>
+                            <input type="text" id="codigo_producto" name="codigo_producto" required>
+                        </div>
+                        <div class="form-control">
+                            <label for="name">Descripcion</label>
+                            <input type="text" id="descripcion" name="descripcion" required>
+                        </div>
+                        <div class="form-control">
+                            <label for="email">Cantidad</label>
+                            <input type="email" id="cantidad" name="cantidad" required>
+                        </div>
+                        <div class="form-control">
+                            <label for="name">Precio Costo</label>
+                            <input type="text" id="precio_costo" name="precio_costo" required>
+                        </div>
+                        <div class="form-control">
+                            <label for="username">Precio Venta</label>
+                            <input type="text" id="precio" name="precio_venta" required>
+                            
+                        </div>
+                        <a href="#" class="btn">Regresar</a>
+                        <a href="#" class="btn">Ingresar Producto</a>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2023 Ferreteria la Esquina. Reservados todos los derechos.</p>
+        </footer>
+    </body>
+</html>

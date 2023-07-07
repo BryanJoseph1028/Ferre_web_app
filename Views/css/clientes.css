@@ -1,0 +1,45 @@
+body{
+    background-color:#e3e4e5;
+    font-family: Arial,sans-serif;
+    color: black;
+}
+
+.formulario{
+    background-color: #1b5583;
+    color: whitesmoke;
+    display: inline-block;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 30px;
+}
+
+.formulario input{
+    text-align: center;
+    width: 250px;
+    margin-top: 15px;
+}
+
+
+.formulario select{
+    text-align: center;
+    width: 260px;
+    margin-top: 15px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btn li{
+    margin-right: 32px;
+}
+
+.btn button{
+    width: 80px;
+}
+
+.btn button:hover{
+    background-color:rgb(18, 250, 96);
+}
