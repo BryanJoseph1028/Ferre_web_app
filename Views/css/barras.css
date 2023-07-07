@@ -4,6 +4,13 @@ body{
     color: black;
 }
 
+#content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 140px); /* Ajusta la altura del contenido según el tamaño del encabezado y el pie de página */
+}
+
 ul{
     list-style: none;
 }
