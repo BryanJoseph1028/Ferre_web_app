@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #ffffff;
+    padding-top: 100px;
+    margin-bottom: 100px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;;
+    margin-left: 10px;
+}
+header{
+    background-color: #1b5583;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+.carrito {
+    margin-right: 10px; /* Margen derecho para separar el icono del texto */
+}
+form{
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+.listaProducto td {
+    color: black; 
+}
+.listaProducto th {
+    color: black; 
+}
+button {
+    color: black; 
+}
+button a {
+    color: black; 
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #1b5583;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
