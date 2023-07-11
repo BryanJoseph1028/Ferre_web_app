@@ -5,10 +5,112 @@
         <meta charset="UTF-8">
         <title>Tipo de Compra</title>
         <link rel="icon" href="../Img/icon/carritoCompras.png">
+        <link rel="stylesheet" href="css/tipoCompra.css">
     </head>
 
     <body>
         <form>
+
+            <header class="d-barra">
+
+                <nav class="barra" id="barra">
+
+                    <div class="barraIzquierda">
+                        <ul class="izquierda">
+                            <li>
+                                <div class="icono-barra">
+                                    <a href="#">
+                                        <img src="../Img/icon/bombilla.png" width="60">
+                                    </a>              
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="barraCentro"> 
+                        <div class="referenciaFormularios">
+                            <ul class="centro">
+
+                                <li>
+                                    <a href="#">
+                                        Carpinteria
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        Pinturas
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        Tornilleria
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        Mecanica
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        Electricidad
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        Plomeria
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        Herramientas
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        Otros
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="barraIzquierda">
+                        <ul class="derecha">
+                            <li>
+                                <div class="buscador">
+                                    <input type="text" name="busqueda" id="busqueda" placeholder="Busqueda" size="25">
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="login">
+                                    <a href="Views/login.html">
+                                        <img src="../Img/icon/login.png" width="50">
+                                    </a>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="compras">
+                                    <a href="Views/carrito.html">
+                                        <img src="../Img/icon/carritoCompras.png" width="50">
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </nav>
+            </header>
+
             <main class="contenido">
                 <section class="confirmacionCompra">
 
@@ -16,13 +118,13 @@
                         <a href="#">
                             <button type="button">
                                 <img src="../Img/icon/efectivo.png" width="100">
-                                <h4>Efectivo</h4>
+                                <h4>Efectivo/Contra Entrega</h4>
                             </button>
                         </a>
                     </div>
 
                     <div class="btnTipoCompra">
-                        <a href="#">
+                        <a href="compraTarjeta.html">
                             <button type="button">
                                 <img src="../Img/icon/tarjeta.png" width="100">
                                 <h4>Tarjeta</h4>
@@ -32,6 +134,34 @@
 
                 </section>
             </main>
+
+            <footer class="pieDePagina">
+                <p>&copy; 2023 Ferreteria la Esquina. Reservados todos los derechos.</p>
+
+                <a href="https://www.instagram.com/">
+                    <img src="../Img/icon/instagram.png" width="50">
+                </a>
+
+                <a href="https://web.whatsapp.com/">
+                    <img src="../Img/icon/whatsapp.png" width="50">
+                </a>
+
+                <a href="https://www.facebook.com/">
+                    <img src="../Img/icon/facebook.png" width="50">
+                </a>
+
+                <a href="#">
+                    <img src="../Img/icon/ubicacion.png" width="50">
+                </a>
+
+                <a href="#">
+                    <img src="../Img/icon/horario.png" width="50">
+                </a>
+
+                <a href="#">
+                    <img src="../Img/icon/telefono.png" width="50">
+                </a>
+            </footer>
         </form>     
     </body>
 </html>
