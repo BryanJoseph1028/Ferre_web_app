@@ -4,13 +4,6 @@ body{
     color: black;
 }
 
-#content-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: calc(100vh - 140px); /* Ajusta la altura del contenido según el tamaño del encabezado y el pie de página */
-}
-
 ul{
     list-style: none;
 }
@@ -94,6 +87,32 @@ ul{
     margin-right: 50px;
     margin-top: 40px;
     display: flex;
+}
+
+.tarjetaFrontal{
+    margin-top: 30px;
+    margin-left: 50px;
+    background-color: black;
+    border-radius: 20px;
+    width: 450px;
+    height: 250px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.tarjetaLateral{
+    margin-top: 30px;
+    margin-left: 50px;
+    background-color: black;
+    border-radius: 20px;
+    width: 450px;
+    height: 250px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.ingresoDatos{
+    margin-top: 30px;
 }
 
 .pieDePagina {

@@ -78,6 +78,47 @@ ul{
 }
 
 
+main{
+    height: 342px;
+}
+
+.confirmacionCompra{
+    display: block;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.btnTipoCompra{
+    display: inline-flex;
+    padding: 6rem;
+}
+
+.btnTipoCompra button{
+    width: 200px;
+    height: 100px;
+    border-radius:15px;
+    border: 1px solid black;
+    cursor: pointer;
+    transition:30ms;
+}
+
+.btnTipoCompra button:hover{
+    background-color: darkslategrey;
+    border: 2px solid black;   
+    color: #e3e4e5; 
+}
+
+.btnTipoCompra img{
+    height: 50px;
+    width: 50px;
+    margin: 0px;
+}
+
+.btnTipoCompra h4{
+    margin: 0px;
+}
+
+
 .encabezado{
     background-color: #1b5583;
     display: flex;
@@ -107,3 +148,4 @@ ul{
 .pieDePagina img{
     margin-left: 45px;
 }
+

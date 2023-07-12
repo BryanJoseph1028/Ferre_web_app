@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
 
+<html lang="en">
     <head>
         <meta charset="UTF-8">
-        <link rel="icon" href="../Img/icon/grupo.png">
-        <link rel="stylesheet" href="css/barras.css">
-        <link rel="stylesheet" href="css/clientes.css">
-        <title>Clientes</title>
+        <title>Tipo de Compra</title>
+        <link rel="icon" href="../Img/icon/carritoCompras.png">
+        <link rel="stylesheet" href="css/tipoCompra.css">
     </head>
 
     <body>
@@ -93,7 +92,7 @@
 
                             <li>
                                 <div class="login">
-                                    <a href="login.html">
+                                    <a href="Views/login.html">
                                         <img src="../Img/icon/login.png" width="50">
                                     </a>
                                 </div>
@@ -101,7 +100,7 @@
 
                             <li>
                                 <div class="compras">
-                                    <a href="carrito.html">
+                                    <a href="Views/carrito.html">
                                         <img src="../Img/icon/carritoCompras.png" width="50">
                                     </a>
                                 </div>
@@ -112,142 +111,57 @@
                 </nav>
             </header>
 
-            <section class="formulario">
-                <div class="titulo">
-                    <h1>FORMULARIO CLIENTES</h1>
-                </div>
+            <main class="contenido">
+                <section class="confirmacionCompra">
 
-                
-
-                <div class="id">
-                    <input type="text" name="nit" id="nit" placeholder="Nit">
-                </div>
-
-                
-
-                <div class="name">
-                    <input type="text" name="nombres" id="nombres" placeholder="Nombres">
-                </div>
-
-            
-
-                <div class="lastName">
-                    <input type="text" name="apellido" id="apellido" placeholder="Apellidos">
-                </div>
-
-            
-
-                <div class="numberPhone">
-                    <input type="number" name="telefono" id="telefono" placeholder="Telefono">
-                </div>
-
-                
-
-                <div class="email">
-                    <input type="email" name="correo" id="correo" placeholder="Correo Electronico">
-                </div>
-
-                
-
-                <div class="departamentoDeDestino">
-                    <select class="departamento" id="departamento">
-                            <option value="0">Departamento</option>
-                            <option value="1">Alta Verapaz</option>
-                            <option value="2">Baja Verapaz</option>
-                            <option value="3">Chimaltenango</option>
-                            <option value="4">Chiquimula</option>
-                            <option value="5">El Progreso</option>
-                            <option value="6">Escuintla</option>
-                            <option value="7">Guatemala</option>
-                            <option value="8">Huehuetenango</option>
-                            <option value="9">Izabal</option>
-                            <option value="10">Jalapa</option>
-                            <option value="11">Jutiapa</option>
-                            <option value="12">Petén</option>
-                            <option value="13">Quetzaltenango</option>
-                            <option value="14">Quiché</option>
-                            <option value="15">Retalhuleu</option>
-                            <option value="16">Sacatepéquez</option>
-                            <option value="17">San Marcos</option>
-                            <option value="18">Santa Rosa</option>
-                            <option value="19">Sololá</option>
-                            <option value="20">Suchitepéquez</option>
-                            <option value="21">Totonicapán</option>
-                            <option value="22">Zacapa</option>
-                    </select>
-                </div>
-
-                
-
-                <div class="city">
-                    <input type="text" name="cuidad" id="cuidad" placeholder="Cuidad o Aldea">
-                </div>
-
-            
-
-                <div class="addres">
-                    <input type="text" name="direccion" id="direccion" placeholder="Direccion Exacta">
-                </div>
-
-                <ul class="btn">
-                    <li>
-                        <div class="btnAgregar">
+                    <div class="btnTipoCompra">
+                        <a href="#">
                             <button type="button">
-                                    <img src="../Img/icon/agregarUsuario.png" width="45">
-                                    Agregar
+                                <img src="../Img/icon/efectivo.png" width="100">
+                                <h4>Efectivo/Contra Entrega</h4>
                             </button>
-                        </div>
-                    </li>
+                        </a>
+                    </div>
 
-                    <li>
-                        <div class="btnBuscar">
+                    <div class="btnTipoCompra">
+                        <a href="compraTarjeta.html">
                             <button type="button">
-                                    <img src="../Img/icon/buscarUsuario.png" width="45">
-                                    Buscar
+                                <img src="../Img/icon/tarjeta.png" width="100">
+                                <h4>Tarjeta</h4>
                             </button>
-                        </div>
-                    </li>
+                        </a>
+                    </div>
 
-                    <li>
-                        <div class="btnModificar">
-                            <button type="button">
-                                <img src="../Img/icon/usuarioEditar.png" width="45">
-                                Modificar
-                            </button>
-                        </div>
-                    </li>
-                </ul>
-
-            </section>
+                </section>
+            </main>
 
             <footer class="pieDePagina">
                 <p>&copy; 2023 Ferreteria la Esquina. Reservados todos los derechos.</p>
-    
-                <a href="#">
+
+                <a href="https://www.instagram.com/">
                     <img src="../Img/icon/instagram.png" width="50">
                 </a>
-    
-                <a href="#">
+
+                <a href="https://web.whatsapp.com/">
                     <img src="../Img/icon/whatsapp.png" width="50">
                 </a>
-    
-                <a href="#">
+
+                <a href="https://www.facebook.com/">
                     <img src="../Img/icon/facebook.png" width="50">
                 </a>
-    
+
                 <a href="#">
                     <img src="../Img/icon/ubicacion.png" width="50">
                 </a>
-    
+
                 <a href="#">
                     <img src="../Img/icon/horario.png" width="50">
                 </a>
-    
+
                 <a href="#">
                     <img src="../Img/icon/telefono.png" width="50">
                 </a>
             </footer>
-            
-        </form>    
+        </form>     
     </body>
 </html>
