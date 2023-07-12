@@ -194,4 +194,9 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    
+}
+
+.pieDePagina img{
+    margin-left: 45px;
 }
