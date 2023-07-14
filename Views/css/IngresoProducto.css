@@ -1,4 +1,10 @@
-/* Estilos del header*/
+
+body {
+	font-family: Arial, sans-serif;
+    background-color: #e3e4e5;
+    color:  #e3e4e5;
+}
+
 header{
 	display: flex;
 	align-items: center;
@@ -11,16 +17,14 @@ header{
 	right: 0;
 }
 
-.ul{
-    list-style: none;
-}
+
 
 .barra{
     background-color:#1b5583;
-    margin:  -50px;
-    padding: -50px;
-    border:  -50px;
-    display:flex;
+    margin:  -70px;
+    padding: 4px;
+    border:  0x;
+    display: flex;
 }
 
 .d-barra{
@@ -39,21 +43,21 @@ header{
     
     justify-content: left;
     display:inline-flex;
-    margin-top: 10px;
+    margin-top: 2px;
 
 }
 
 .centro{
     display:inline-block;
     display: flex;
-    padding: 2px;
+    padding: 20px;
 }
 
 .centro li{
     justify-content: center;
     list-style-position: inside;
     display:inline-flex;
-    margin-top: 10px;
+    margin-top: -2px;
 }
 
 .centro a{
@@ -76,11 +80,7 @@ header{
     
 }
 
-body {
-	font-family: Arial, sans-serif;
-    background-color: #e3e4e5;
-    color:  #e3e4e5;
-}
+
 
 header h1{
     color: #ffffff;
