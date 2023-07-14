@@ -114,6 +114,8 @@ ul{
 /* Espacio entre el header y body*/
 .main {
 	padding-top: 40px;
+    text-align: center;
+
 }
 /* Estilos del formulario de registro */
 .registration-form {
@@ -181,4 +183,8 @@ footer {
 }
 .pieDePagina img{
     margin-left: 45px;
+}
+
+.botones{
+    display: inline-flex;
 }

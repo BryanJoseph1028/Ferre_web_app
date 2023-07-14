@@ -146,6 +146,7 @@ h1 {
 }
 
 .pay-now-btn, .continue-shopping-btn {
+    text-decoration: none;
     padding: 10px 20px;
     background-color: #030303   ;
     color: #000000;
