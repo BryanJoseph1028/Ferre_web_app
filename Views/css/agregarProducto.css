@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+header {
+    background-color:#1b5583;
+    text-align: left;
+    gap:15%;
+    height: 70px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #ffffff;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    flex-direction: column;
+}
+label{
+    display: block;
+    text-align: left;
+    color: black;
+}
+select {
+    text-align: left;
+    color: black;
+}
+option {
+    color: black;
+}
+.agregarProducto {
+    margin-right: 10px;
+    max-width: 70px; /* Ajusta el tamaño máximo del icono según tus necesidades */
+    height: auto;
+    width: 100%;
+    height: auto;
+}
+.footer {
+    background-color: #1b5583;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
