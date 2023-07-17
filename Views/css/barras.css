@@ -34,12 +34,12 @@ ul{
     display: inline-block;
 }
 
-.izquierda li{
-    
+.izquierda li{ 
     justify-content: left;
     display:inline-flex;
-    margin-top: 10px;
+    margin-top: 12px;
 }
+
 
 .centro{
     display: flex;
@@ -50,27 +50,41 @@ ul{
     justify-content: center;
     list-style-position: inside;
     display:inline-flex;
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-left:15px;
 }
 
 .centro a{
     text-align: center;
     text-decoration: none;
     color: #e3e4e5;
-    margin:15px;
-    
+    margin:12px;
+    transition: transform 600ms;  
+}
+
+.centro a:hover{
+    color: black;
+    transform: scale(1.5);
 }
 
 .derecha{
     justify-content: right;
     display: inline-flex;
+    padding:1px;
 }
 
 .derecha li{
-    margin:12px;
-    
+    margin-top:12px;
+    margin-left:15px;
 }
 
+.derecha img{
+    transition: transform 400ms;   
+}
+
+.derecha img:hover{
+    transform: scale(1.25);
+}
 
 #busqueda{
     margin-top: 15px;
@@ -98,12 +112,19 @@ ul{
 
 .pieDePagina {
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 40px;
 	font-size: 1.2em;
 	color: #ffffff;
 	background-color: #004c6d;
+    
 }
 
 .pieDePagina img{
     margin-left: 45px;
+    padding: 0px;
+    transition: transform 350ms;  
+}
+
+.pieDePagina img:hover{
+    transform: scale(1.25);
 }
