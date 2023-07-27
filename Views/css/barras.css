@@ -15,6 +15,10 @@ ul{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+}
+
 .barra{
     display: flex;
     margin: -22px;
