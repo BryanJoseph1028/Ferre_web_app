@@ -11,9 +11,7 @@ header {
 	right: 0;
 }
 
-main {
-	padding-top: 80px;
-}
+
 
 /* Estilos generales */
 body {
@@ -34,13 +32,19 @@ ul{
     list-style: none;
 }
 
-.producto {
+main {
     padding: 20px;
     border-radius: 4px;
     background-color: #1b5583;
     margin: 90px auto;
     max-width: 600px;
+    display: block;
+    text-align: center;
+
 }
+
+
+
 
 .barra{
     display: flex;
@@ -124,15 +128,8 @@ header h1 {
 }
 
 /* Espacio entre el header y body*/
-h2 {
-    text-align: left;
-    color: #000000;
-}
 
-h1 {
-    text-align: left;
-    color: #ffffff;
-}
+
 
 
 
