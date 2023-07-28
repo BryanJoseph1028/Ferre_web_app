@@ -1,3 +1,13 @@
+body{
+    background-color:#e3e4e5;
+    font-family: Arial,sans-serif;
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
+
 .barra{
     display:inline-flex;
     margin: -18px;
@@ -53,7 +63,7 @@
 
 .derecha li img{
     text-align: right;
-    margin-top: 5px;
+    margin-top: 15px;
     justify-content: right;
     
 }
@@ -96,4 +106,16 @@
 
 .btnRecuperarUsuario a{
     text-decoration: none;
+}
+
+.pieDePagina {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 1.2em;
+	color: #ffffff;
+	background-color: #004c6d;
+}
+
+.pieDePagina img{
+    margin-left: 45px;
 }

@@ -4,52 +4,48 @@
     box-sizing: border-box;
     color: white;
 }
-body {
-    font-family: 'Space Grotesk', sans-serif;
-    background-color: #ffffff;
-    padding-top: 100px;
-    margin-bottom: 100px;
-}
-h1{
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    margin: 30px 0px;
-}
-header{
+header {
     background-color:#1b5583;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: left;
     gap:15%;
     height: 70px;
     top: 0;
     position: fixed;
     width: 100%;
 }
-.icono-container {
-    margin-right: 10px;
-    max-width: 70px; /* Ajusta el tamaño máximo del icono según tus necesidades */
-    height: auto;
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #ffffff;
+    padding-top: 100px;
+    margin-bottom: 100px;
 }
-
-.icono {
-    width: 100%;
-    height: auto;
-}
-p{
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    color: black;
-    
-}
-.video-container {
+.form-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh; /* Ajusta la altura según tus necesidades */
+    height: 50vh;
+    flex-direction: column;
 }
-/* Estilo para el pie de página */
-footer {
+label{
+    display: block;
+    text-align: left;
+    color: black;
+}
+select {
+    text-align: left;
+    color: black;
+}
+option {
+    color: black;
+}
+.agregarProducto {
+    margin-right: 10px;
+    max-width: 70px; /* Ajusta el tamaño máximo del icono según tus necesidades */
+    height: auto;
+    width: 100%;
+    height: auto;
+}
+.footer {
     background-color: #1b5583;
     color: #ffffff;
     text-align: center;

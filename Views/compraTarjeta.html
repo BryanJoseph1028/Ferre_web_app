@@ -2,74 +2,75 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <link rel="icon" href="../Img/icon/desbloqueo.png">
-        <title>Recuperacion de Usuario</title>
-        <link rel="stylesheet" href="css/recuperarUsuario.css">
+        <link rel="stylesheet" href="css/compraTarjeta.css">
+        <link rel="icon" href="#">
+        <title>Pago</title>
     </head>
+
     <body>
         <form>
-            <header class="d-barra">
+          <header class="d-barra">
 
                 <nav class="barra" id="barra">
-    
+
                     <div class="barraIzquierda">
                         <ul class="izquierda">
                             <li>
                                 <div class="icono-barra">
-                                    <a href="../index.html">
+                                    <a href="#">
                                         <img src="../Img/icon/bombilla.png" width="60">
                                     </a>              
                                 </div>
                             </li>
                         </ul>
                     </div>
-    
+
                     <div class="barraCentro"> 
                         <div class="referenciaFormularios">
                             <ul class="centro">
-    
+
                                 <li>
                                     <a href="#">
                                         Carpinteria
                                     </a>
                                 </li>
-    
+
                                 <li>
                                     <a href="#">
                                         Pinturas
                                     </a>
                                 </li>
-    
+
                                 <li>
                                     <a href="#">
                                         Tornilleria
                                     </a>
                                 </li>
-    
+
                                 <li>
                                     <a href="#">
                                         Mecanica
                                     </a>
                                 </li>
-    
+
                                 <li>
                                     <a href="#">
                                         Electricidad
                                     </a>
                                 </li>
-    
+
                                 <li>
                                     <a href="#">
                                         Plomeria
                                     </a>
                                 </li>
-    
+
                                 <li>
                                     <a href="#">
                                         Herramientas
                                     </a>
                                 </li>
-    
+
                                 <li>
                                     <a href="#">
                                         Otros
@@ -78,70 +79,109 @@
                             </ul>
                         </div>
                     </div>
-    
+
                     <div class="barraIzquierda">
                         <ul class="derecha">
                             <li>
-                                <div class="salirLogin">
-                                    <a href="login.html">
-                                        <img src="../Img/icon/home.png" width="45">
+                                <div class="buscador">
+                                    <input type="text" name="busqueda" id="busqueda" placeholder="Busqueda" size="25">
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="login">
+                                    <a href="Views/login.html">
+                                        <img src="../Img/icon/login.png" width="50">
+                                    </a>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="compras">
+                                    <a href="Views/carrito.html">
+                                        <img src="../Img/icon/carritoCompras.png" width="50">
                                     </a>
                                 </div>
                             </li>
                         </ul>
                     </div>
-    
+
                 </nav>
             </header>
-
-            <section class="contenido">
             
-                <h1>Recuperacion de Usuario</h1>
+            <section class="tarjetaFrontal">
+                <img src="#">
+                <p>numero</p>
+                <p>nombre</p>
+                <p>apellido</p>
+                <p>mm/yy</p>
+            </section>
 
-                <div class="correo">
-                    <input type="email" name="recuperacionEmail" id="recuperacionEmail" placeholder="Ingrese su correo electronico" size="50">
+            <section class="tarjetaLateral">
+                <p>codigo</p>
+            </section>
+
+            <section class="ingresoDatos">
+
+                <div class="numero">
+                    <input type="number" name="nTarjeta" id="nTarjeta" placeholder="Numero de Tarjeta">
                 </div>
 
-                <br>
+                <div class="nombre">
+                    <input type="text" name="name" id="name" placeholder="Nombre">
+                </div>
 
-                <div class="btnRecuperarUsuario">
-                    <a href="login.html">
+                <div class="apellidos">
+                    <input type="text" name="lastName" id="lastName" placeholder="Apellidos">
+                </div>
+
+                <div class="fecha">
+                    <input type="month" name="fVencimiento" id="fVencimiento" placeholder="Fecha Vencimiento mm/yy">
+                </div>
+
+                <div class="codigo">
+                    <input type="number" name="idC" id="idC" placeholder="Codigo">
+                </div>
+
+                <div class="btnComprar">
+                    <a href="../index.html">
                         <button type="button">
-                            <img src="../Img/icon/enviar.png" width="30"> Enviar
-                        </button>   
-                    </a>       
+                            <img src="../Img/icon/carritoCompras.png" width="20">
+                            Comprar
+                        </button>
+                    </a>
                 </div>
 
             </section>
 
             <footer class="pieDePagina">
                 <p>&copy; 2023 Ferreteria la Esquina. Reservados todos los derechos.</p>
-    
-                <a href="#">
+
+                <a href="https://www.instagram.com/">
                     <img src="../Img/icon/instagram.png" width="50">
                 </a>
-    
-                <a href="#">
+
+                <a href="https://web.whatsapp.com/">
                     <img src="../Img/icon/whatsapp.png" width="50">
                 </a>
-    
-                <a href="#">
+
+                <a href="https://www.facebook.com/">
                     <img src="../Img/icon/facebook.png" width="50">
                 </a>
-    
+
                 <a href="#">
                     <img src="../Img/icon/ubicacion.png" width="50">
                 </a>
-    
+
                 <a href="#">
                     <img src="../Img/icon/horario.png" width="50">
                 </a>
-    
+
                 <a href="#">
                     <img src="../Img/icon/telefono.png" width="50">
                 </a>
             </footer>
-            
+
         </form>
     </body>
 </html>

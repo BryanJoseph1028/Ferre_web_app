@@ -3,14 +3,15 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Carro de la compra</title>
-	<link rel="stylesheet" href="../Views/css/ventas.css">
+	<title>Ventas Realizadas</title>
+	<link rel="icon" href="../Img/icon/ventas.png">
+	<link rel="stylesheet" href="./css/barras.css">
+	<link rel="stylesheet" href="./css/ventas.css">
 </head>
 <body>
+
 	<header class="d-barra">
-
 		<nav class="barra" id="barra">
-
 			<div class="barraIzquierda">
 				<ul class="izquierda">
 					<li>
@@ -80,10 +81,19 @@
 
 			<div class="barraIzquierda">
 				<ul class="derecha">
+					
 					<li>
-						<div class="salirLogin">
-							<a href="../index.html">
-								<img src="../Img/icon/home.png" width="45">
+						<div class="login">
+							<a href="Views/login.html">
+								<img src="../Img/icon/login.png" width="50">
+							</a>
+						</div>
+					</li>
+
+					<li>
+						<div class="compras">
+							<a href="Views/carrito.html">
+								<img src="../Img/icon/carritoCompras.png" width="50">
 							</a>
 						</div>
 					</li>
@@ -98,6 +108,7 @@
 		<table>
 			<thead>
 				<tr>
+					<th>codigo</th>
 					<th>Cantidad</th>
 					<th>Descripcion</th>
 					<th>Precio Unitario</th>
@@ -110,8 +121,11 @@
 			</thead>
 			<tbody>
 				<tr>
+					<td>F001</td>
 					<td>1</td>
 					<td>Martillo</td>
+					<td>Q45.00</td>
+					<td>Q45.00</td>
 					<td>Q45.00</td>
 					<td>Bryan</td>
 					<td>08/11/2021</td>
@@ -123,13 +137,38 @@
 			
 			</tfoot>
 		</table>
-
+		<a href="../index.html" class="btn">Regresar</a>
+		<a href="#" class="btn">Generar Reporte
+		</a>
 	</main>
+	<footer class="pieDePagina">
+		<p>&copy; 2023 Ferreteria la Esquina. Reservados todos los derechos.</p>
 
-	<footer>
-		<p>&copy; 2023 Carrito de Compras. Reservados todos los derechos.</p>
+		<a href="https://www.instagram.com/">
+			<img src="../Img/icon/instagram.png" width="50">
+		</a>
+
+		<a href="https://web.whatsapp.com/">
+			<img src="../Img/icon/whatsapp.png" width="50">
+		</a>
+
+		<a href="https://www.facebook.com/">
+			<img src="../Img/icon/facebook.png" width="50">
+		</a>
+
+		<a href="#">
+			<img src="../Img/icon/ubicacion.png" width="50">
+		</a>
+
+		<a href="#">
+			<img src="../Img/icon/horario.png" width="50">
+		</a>
+
+		<a href="#">
+			<img src="../Img/icon/telefono.png" width="50">
+		</a>
 	</footer>
 
-	<script src="../script.js"></script>
-</body>
+	
+	</body>
 </html>

@@ -4,12 +4,15 @@ body{
     color: black;
 }
 
-ul{
-    list-style: none;
+#content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 140px); /* Ajusta la altura del contenido según el tamaño del encabezado y el pie de página */
 }
 
-a{
-    text-decoration: none;
+ul{
+    list-style: none;
 }
 
 .barra{
@@ -31,12 +34,12 @@ a{
     display: inline-block;
 }
 
-.izquierda li{ 
+.izquierda li{
+    
     justify-content: left;
     display:inline-flex;
-    margin-top: 12px;
+    margin-top: 10px;
 }
-
 
 .centro{
     display: flex;
@@ -47,45 +50,72 @@ a{
     justify-content: center;
     list-style-position: inside;
     display:inline-flex;
-    margin-top: 15px;
-    margin-left:15px;
+    margin-top: 10px;
 }
 
 .centro a{
     text-align: center;
     text-decoration: none;
     color: #e3e4e5;
-    margin:12px;
-    transition: transform 600ms;  
-}
-
-.centro a:hover{
-    color: black;
-    transform: scale(1.5);
+    margin:15px;
+    
 }
 
 .derecha{
     justify-content: right;
     display: inline-flex;
-    padding:1px;
 }
 
 .derecha li{
-    margin-top:12px;
-    margin-left:15px;
+    margin:12px;
+    
 }
 
-.derecha img{
-    transition: transform 400ms;   
-}
-
-.derecha img:hover{
-    transform: scale(1.25);
-}
 
 #busqueda{
     margin-top: 15px;
     text-align: left;
+}
+
+
+main{
+    height: 342px;
+}
+
+.confirmacionCompra{
+    display: block;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.btnTipoCompra{
+    display: inline-flex;
+    padding: 6rem;
+}
+
+.btnTipoCompra button{
+    width: 200px;
+    height: 100px;
+    border-radius:15px;
+    border: 1px solid black;
+    cursor: pointer;
+    transition:30ms;
+}
+
+.btnTipoCompra button:hover{
+    background-color: darkslategrey;
+    border: 2px solid black;   
+    color: #e3e4e5; 
+}
+
+.btnTipoCompra img{
+    height: 50px;
+    width: 50px;
+    margin: 0px;
+}
+
+.btnTipoCompra h4{
+    margin: 0px;
 }
 
 
@@ -109,19 +139,13 @@ a{
 
 .pieDePagina {
 	text-align: center;
-	margin-top: 40px;
+	margin-top: 50px;
 	font-size: 1.2em;
 	color: #ffffff;
 	background-color: #004c6d;
-    
 }
 
 .pieDePagina img{
     margin-left: 45px;
-    padding: 0px;
-    transition: transform 350ms;  
 }
 
-.pieDePagina img:hover{
-    transform: scale(1.25);
-}
