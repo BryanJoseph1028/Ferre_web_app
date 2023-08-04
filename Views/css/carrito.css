@@ -35,18 +35,55 @@ form{
     padding-top: 100px;
     margin-bottom: 100px;
 }
-.listaProducto td {
-    color: black; 
+table{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
 }
-.listaProducto th {
-    color: black; 
+th{
+    background-color: #1b5583;
+    color: aliceblue;
+    border: 2px solid black ;
+    padding-left: 20px;
+    padding-right: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-button {
-    color: black; 
+td{
+    color: black;
+    border: 2px solid black ;
+    padding-left: 20px;
+    padding-right: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-button a {
-    color: black; 
+
+.number input[type="number"]{
+    background-color: white transparent;
+    border: none;
+    color: #000000;
+    font-size: 25px;
+    margin-bottom: 20px;
+    padding-right: 2px;
+    text-align: center;
 }
+
+.botones, a {
+    color: black; 
+    padding: 15px;
+    margin-top: 20px;
+    border: 0px;
+    margin-right: 10px;
+}
+.botones button {
+    color: black; 
+    padding: 15px;
+    margin-top: 20px;
+    margin-right: 10px;
+
+}
+
 
 /* Estilo para el pie de página */
 footer {

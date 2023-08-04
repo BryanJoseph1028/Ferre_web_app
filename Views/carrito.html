@@ -4,155 +4,167 @@
     <head>
         <meta charset="UTF-8">
         <link rel="icon" href="../Img/icon/carritoCompras.png">
-        <link rel="stylesheet" href="./css/barras.css">
+        <link rel="stylesheet" href="../Views/css/barras.css">
         <link href="../Views/css/carrito.css" rel="stylesheet" type="text/css">
         <title>Carrito</title>
     </head>
+    <header class="d-barra">
 
+        <nav class="barra" id="barra">
+
+            <div class="barraIzquierda">
+                <ul class="izquierda">
+                    <li>
+                        <div class="icono-barra">
+                            <a href="#">
+                                <img src="../Img/icon/bombilla.png" width="60">
+                            </a>              
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="barraCentro"> 
+                <div class="referenciaFormularios">
+                    <ul class="centro">
+
+                        <li>
+                            <a href="#">
+                                Carpinteria
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                Pinturas
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                Tornilleria
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                Mecanica
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                Electricidad
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                Plomeria
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                Herramientas
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                Otros
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="barraIzquierda">
+                <ul class="derecha">
+                    <li>
+                        <div class="buscador">
+                            <input type="text" name="busqueda" id="busqueda" placeholder="Busqueda" size="25">
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="login">
+                            <a href="Views/login.html">
+                                <img src="../Img/icon/login.png" width="50">
+                            </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="compras">
+                            <a href="Views/carrito.html">
+                                <img src="../Img/icon/carritoCompras.png" width="50">
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
     <body>
 
-        <header class="d-barra">
-
-            <nav class="barra" id="barra">
-
-                <div class="barraIzquierda">
-                    <ul class="izquierda">
-                        <li>
-                            <div class="icono-barra">
-                                <a href="#">
-                                    <img src="Img/icon/bombilla.png" width="60">
-                                </a>              
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="barraCentro"> 
-                    <div class="referenciaFormularios">
-                        <ul class="centro">
-
-                            <li>
-                                <a href="#">
-                                    Carpinteria
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#">
-                                    Pinturas
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#">
-                                    Tornilleria
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#">
-                                    Mecanica
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#">
-                                    Electricidad
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#">
-                                    Plomeria
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#">
-                                    Herramientas
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#">
-                                    Otros
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="barraIzquierda">
-                    <ul class="derecha">
-                        <li>
-                            <div class="buscador">
-                                <input type="text" name="busqueda" id="busqueda" placeholder="Busqueda" size="25">
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="login">
-                                <a href="Views/login.html">
-                                    <img src="Img/icon/login.png" width="50">
-                                </a>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="compras">
-                                <a href="Views/carrito.html">
-                                    <img src="Img/icon/carritoCompras.png" width="50">
-                                </a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-
-            </nav>
-        </header>
-
+        <h1>tABLA DE PRODUCTOS:</h1>
         <form>
             <div class="tabla">
 
                 <table class="listaProducto" align="center" >
                     <tr class="encabezado">
-                        <th>Codigo</th>
-                        <th>Nombre</th>
-                        <th>Cantidad</th>
-                        <th>Precio Unitario</th>
-                        <th>Subtotal</th>
-                    </tr>
+                        <thead>
+                                <th>Imagen</th>    
+                                <th>Codigo</th>
+                                <th>Nombre</th>
+                                <th>cantidad</th>
+                                <th>Precio Unitario</th>
+                                <th>Subtotal</th>
+                                <th>total</th>
+                                <th>Modificar</th>
+                                <th>Eliminar</th>
+                        </thead>
 
-                    <!-- PARA LA PARTE DEL BACKEND
-                    <tr class="descripcionProducto">
-                        <td class="codigo"></td>
-                        <td class="nombre"></td>
-                        <td class="cantidad"></td>
-                        <td class="preciio">Q </td>
-                        <td class="Subtotal">Q </td>    
-                    </tr>
-                    -->
-                    <tr>
-                        <td class="codigo">01</td>
-                        <td class="nombre">Martillo</td>
-                        <td class="cantidad">1</td>
-                        <td class="preciio">Q20.00</td>
-                        <td class="Subtotal">Q 20.00</td>
-                    </tr>
+                        <tr>
+                            <td>Imagen</td>
+                            <td>F0001</td>
+                            <td>01</td>
+                            <td>Martillo</td>
+                            <td>1</td>
+                            <td>Q20.00</td>
+                            <td>Q 20.00</td>
+                            <td>
+                                <div class="botones-accion">
+                                <button type="button">
+                                        <img src="../Img/icon/lapiz.png" width="45">
+                                    </button>
+                                </div>
+                            </td>
+                            <td>
+                                
+                                <div class="botones-accion" >
+                                    <button type="reset">
+                                        <img src="../Img/icon/cancelar.png" width="45">
+                                    </button>
+                                </div>
+                            </td>
+                            
+                        </tr>
 
-                    <tr>
-                        <td class="codigo">02</td>
-                        <td class="nombre">Candado</td>
-                        <td class="cantidad">1</td>
-                        <td class="preciio">Q20.00</td>
-                        <td class="Subtotal">Q 20.00</td>
-                    </tr>
-                    
-
-                    <tr>
-                        <th>TOTAL </th>
-                        <td class="total">Q 40.00</td>
-                    </tr>
+                        <tr>
+                            <th>SUBTOTAL</th>
+                            <td>
+                                <input class="number" type="number">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>TOTAL </th>
+                            <td>
+                                <input class="number" type="number">
+                            </td>
+                        </tr>
                     
                     
                 </table>
@@ -160,40 +172,33 @@
             </div>
 
             <br>
-            <br>
-            <br>
+            
+        <div class="contenedor-btn">
+            <div class="botones">
 
-            <div class="btnAgregar">
+                <button type="button">
+                    <a href="../index.html">
+                        <img src="../Img/icon/volver.png" width="45">
+                        Regresar
+                    </a>
+                </button>
+
                 <button type="button">
                     <a href="../index.html">
                         <img src="../Img/icon/agregar.png" width="45">
                         Agregar Producto
                     </a>
                 </button>
-            </div>
-
-            <div class="btnAceptar">
                 <button type="button">
                     <a href="tipoCompra.html">
                         <img src="../Img/icon/aceptar.png" width="45">
                         Confirmar Compra
                     </a>
                 </button>
+
             </div>
 
-            <div class="btnEliminar">
-                <button type="reset">
-                    <img src="../Img/icon/cancelar.png" width="45">
-                    Eliminar Compra
-                </button>
-            </div>
-
-            <div class="btnModificar">
-                <button type="button">
-                    <img src="../Img/icon/lapiz.png" width="45">
-                    Modificar Compra
-                </button>
-            </div>
+        </div>
         </form>
 
         <footer class="pieDePagina">
