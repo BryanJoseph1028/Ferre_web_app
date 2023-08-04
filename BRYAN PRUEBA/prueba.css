@@ -42,12 +42,35 @@ p{
     color: black;
     
 }
-.video-container {
+
+.burro_yos {
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 50vh; /* Ajusta la altura según tus necesidades */
+    justify-content: center;
+    width: 400px; /* Ancho del div */
+    height: 300px; /* Alto del div */
+    border: 1px solid black; /* Solo para visualizar el div en el ejemplo */
 }
+
+.burro_yos img {
+    max-width: 100%; /* La imagen se ajustará automáticamente al ancho del div */
+    max-height: 100%;
+}
+
+.pastor_bryan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px; /* Ancho del div */
+    height: 300px; /* Alto del div */
+    border: 1px solid black; /* Solo para visualizar el div en el ejemplo */
+}
+
+.pastor_bryan img {
+    max-width: 100%; /* La imagen se ajustará automáticamente al ancho del div */
+    max-height: 100%;
+}
+
 /* Estilo para el pie de página */
 footer {
     background-color: #1b5583;
