@@ -27,7 +27,7 @@
     
     <div id="contenedor" class="contenedor">
         <div>
-            <img src="imagen1.webp" alt="producto 1">
+            <img src="../carpinteria/img/barniz.png" alt="producto 1">
             <div class="informacion">
                 <p>Producto 1</p>
                 <p class="precio">Q.199.00</p>
@@ -91,12 +91,70 @@
             </div>
         </div>
         <div>
-            <img src="img/agregar.jpg" alt="producto 9">
-            <div class="informacion">
-                <input type="text" placeholder="nombre">
-                <input type="number" placeholder="precio">
-                <button>Agregar</button>
-            </div>
+            <form action="" method="" class="form-container">
+
+                <div>
+                    <label for="agregar_imagen">Agregar Imagen</label>
+                    <input type="text" id="agregar_imagen" name="agregar_imagen">
+                </div>
+
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre">
+                </div>
+                
+                <div>
+                    <label for="">Marca</label>
+                    <input type="text" name="marca" id="marca">
+                </div>
+
+                <div>
+                    <select name="lista" id="lista">
+                        <option value="1">-Area-</option>
+                        <option value="2">Pinturas</option>
+                        <option value="3">Tornilleria</option>
+                        <option value="4">Mecanica</option>
+                        <option value="5">Electricidad</option>
+                        <option value="6">Plomeria</option>
+                        <option value="7">Herramientas</option>
+                        <option value="8">Carpinteria</option>
+                        <option value="8">Otros</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="precio">Precio Q:</label>
+                    <input type="number" name="precio" id="precio">
+                </div>
+                
+                <div class="btnAgregar">
+                    <button type="submit">
+                        <a href="">
+                            <img src="../Img/icon/agregar.png" width="45">
+                            Agregar</button>
+                        </a>
+                </div>
+
+                <div class="btnModificar">
+                    <button>
+                        <a href="">
+                            <img src="../Img/icon/lapiz.png" width="45">
+                            Modificar
+                        </a>
+                    </button>
+                </div>
+
+                <div class="btnEliminar">
+                    <button type="reset">
+                        <a href="">
+                            <img src="../Img/icon/cancelar.png" width="45">
+                            Eliminar
+                        </a>
+                    </button>
+                </div>
+
+            </form>
+            
         </div>
     </div>
 
